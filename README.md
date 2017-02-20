@@ -1,7 +1,7 @@
 # MapsBot
 I wanted to work on my Python and MySQL skills so I decided to create a reddit bot. The bot's functionality isn't really all that useful
 as it only saves a few keystrokes but the I think the search algorithm used is rather interesting and may be useful in future projects.
-I created the bot with the intention of using it on subreddits such as "r/cityporn" (just skylines, no obsenities!) where the names of locations
+I created the bot with the intention of using it on subreddits such as "r/cityporn" (just skyline pics, no obsenities!) where the names of locations
 are often used in post titles. The bot's goal is to take a submission's title and compare it with a database of populated global locations. If a 
 location is found, a google maps link is generated using the location as a search term. For example, if the post title is "The wonderful
 beaches of Los Angeles, CA", the bot would generate the search term "Los Angeles, California" and would reply to the post with 
